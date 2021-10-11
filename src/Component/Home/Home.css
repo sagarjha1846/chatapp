@@ -1,0 +1,9 @@
+.Home {
+  width: 100%;
+  border-top: 0.1rem solid #f1f2f7;
+
+  padding: 10px;
+  height: 100vh;
+  background-color: white;
+  overflow-y: scroll;
+}

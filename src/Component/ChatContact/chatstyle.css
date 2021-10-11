@@ -1,0 +1,30 @@
+.contactDetails {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  padding: 5px 10px;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  border-bottom: 0.1rem solid #f1f2f7;
+}
+
+.contactDetails:hover{
+  border: 0.1rem solid orange;
+  border-radius: 10px;
+  
+}
+
+.contactDetails > div > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chatMess {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 10px;
+}
